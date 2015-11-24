@@ -163,51 +163,6 @@ public class Boekenkast {
                 tempList.add(boek);
             }
         });
-
-
-//
-//
-//
-//
-//
-//        if (!duplicates.isEmpty()) {
-//
-//
-//
-//
-//
-//            for (Boek d : duplicates) {
-//                for (Boek bb : bookList) {
-//
-//                    if (d.getTitel().equals(bb.getTitel() || ))
-//
-//                }
-//            }
-//        }
-//
-//
-//        for (Boek b : bookList) {
-//
-//            for (Boek z : duplicates) {
-//                //  if ()
-//            }
-//
-//
-//            for (Boek c : duplicates) {
-//                if (!(c.getTitel().equals(b.getTitel()) || c.getISBN_NUMBER() == b.getISBN_NUMBER())) {
-//                    duplicates.add(b);
-//                }
-//            }
-//        }
-//
-//        for (Boek z : duplicates) {
-//            if (z.getTitel() != null && z.getTitel().equals("")) {
-//                System.out.println(z.getTitel());
-//            } else {
-//                System.out.println(z.getISBN_NUMBER());
-//            }
-//
-//        }
     }
 
 
@@ -276,7 +231,7 @@ public class Boekenkast {
         if (oudste != null) {
             return "De oudste auteur is " + oudste.getName() + " met een leeftijd van " + oldest + ".";
         }
-        return "Er zijn nog geen auteurs geregistreerd.";
+        return "Er zijn nog geen auteurs met een leeftijd geregistreerd.";
     }
 }
 
