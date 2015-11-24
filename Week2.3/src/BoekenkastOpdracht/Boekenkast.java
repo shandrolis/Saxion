@@ -1,3 +1,5 @@
+package BoekenkastOpdracht;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -31,7 +33,7 @@ public class Boekenkast {
     }
 
     /**
-     * removes book when supplied with same Boek
+     * removes book when supplied with same BoekenkastOpdracht.Boek
      *
      * @param boek
      */
@@ -97,7 +99,7 @@ public class Boekenkast {
         List<Boek> doubleList = new ArrayList<Boek>();
 
         for (Boek x : bookList) {
-            //checks if Boek already exists in doubleList
+            //checks if BoekenkastOpdracht.Boek already exists in doubleList
             if (x.equals(e)) {
                 for (Boek z : doubleList) {
                     if (!(e.equals(z))) {
