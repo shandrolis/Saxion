@@ -3,20 +3,22 @@
  */
 public class Apl {
 
-    public static void main (String[] args){
+    public static void main(String[] args) {
 
         new Apl().run();
     }
 
 
-    public void run(){
+    public void run() {
         Boekenkast kast = new Boekenkast(50);
 
-        for (int i = 0; i < 52; i++) {
-            kast.addBoek(new Boek(123));
+        for (int i = 0; i < 15; i++) {
+            kast.addBoek(new Boek(20, "Abanas", new Auteur("Peter pannekoek")));
+            kast.addBoek(new Boek(23, "potato", new Auteur("Henri Horis")));
         }
 
-        kast.checkForDouble();
+        kast.getBooksByAuthor("Peter pannekoek");
+        //   kast.checkForDouble();
 
     }
 }

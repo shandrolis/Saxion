@@ -5,6 +5,8 @@ import java.util.GregorianCalendar;
  * Created by Joep on 23-Nov-15.
  */
 public class Auteur {
+
+
     private String name;
     Calendar date;
 
@@ -27,5 +29,8 @@ public class Auteur {
             }
             return "A date of birth has not been set.";
 
+    }
+    public String getName() {
+        return name;
     }
 }

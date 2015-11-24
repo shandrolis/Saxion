@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by Joep on 23-Nov-15.
@@ -157,7 +159,7 @@ public class Boekenkast {
                         tempList.add(boek);
                     }
                 }
-            }else{
+            } else {
                 tempList.add(boek);
             }
         });
@@ -207,6 +209,50 @@ public class Boekenkast {
 //
 //        }
     }
+
+
+    public void getBooksByAuthor(String author) {
+        for (Boek b : bookList) {
+            if (b.getAuthor().getName().equals(author)) {
+                if (b.getTitel().equals(null) || b.getTitel().equals("")) {
+                    System.out.println(b.getISBN_NUMBER());
+                }else{
+                    System.out.println(b.getTitel());
+                }
+            }
+        }
+    }
+
+    public void getBooksByAuthor(Auteur author) {
+        for (Boek b : bookList) {
+           if (b.getAuthor().equals(author)){
+               if (b.getTitel().equals(null) || b.getTitel().equals("")) {
+                   System.out.println(b.getISBN_NUMBER());
+               }else{
+                   System.out.println(b.getTitel());
+               }
+           }
+        }
+    }
+
+    public void getAllAuthors() {
+        Set<String> lijst = new HashSet<String>();
+
+        for (Boek b : bookList) {
+            lijst.add(b.getAuthor().getName());
+        }
+
+        for (String s : lijst) {
+            System.out.println(s);
+        }
+    }
+
+    public void moveToNewBookcase(Boek b, Boekenkast k){
+        k.addBoek(b);
+        this.removeBoek(b);
+
+    }
+
 
 }
 
