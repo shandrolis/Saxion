@@ -216,7 +216,7 @@ public class Boekenkast {
             if (b.getAuthor().getName().equals(author)) {
                 if (b.getTitel().equals(null) || b.getTitel().equals("")) {
                     System.out.println(b.getISBN_NUMBER());
-                }else{
+                } else {
                     System.out.println(b.getTitel());
                 }
             }
@@ -225,17 +225,17 @@ public class Boekenkast {
 
     public void getBooksByAuthor(Auteur author) {
         for (Boek b : bookList) {
-           if (b.getAuthor().equals(author)){
-               if (b.getTitel().equals(null) || b.getTitel().equals("")) {
-                   System.out.println(b.getISBN_NUMBER());
-               }else{
-                   System.out.println(b.getTitel());
-               }
-           }
+            if (b.getAuthor().equals(author)) {
+                if (b.getTitel().equals(null) || b.getTitel().equals("")) {
+                    System.out.println(b.getISBN_NUMBER());
+                } else {
+                    System.out.println(b.getTitel());
+                }
+            }
         }
     }
 
-    public void getAllAuthors() {
+    public void printAllAuthors() {
         Set<String> lijst = new HashSet<String>();
 
         for (Boek b : bookList) {
@@ -247,13 +247,37 @@ public class Boekenkast {
         }
     }
 
-    public void moveToNewBookcase(Boek b, Boekenkast k){
+    public Set<Auteur> getAllAuthors() {
+        Set<Auteur> lijst = new HashSet<Auteur>();
+
+        for (Boek b : bookList) {
+            lijst.add(b.getAuthor());
+        }
+
+        return lijst;
+    }
+
+    public void moveToNewBookcase(Boek b, Boekenkast k) {
         k.addBoek(b);
         this.removeBoek(b);
 
     }
 
-
+    public String oldestAuthor() {
+        Set<Auteur> s = getAllAuthors();
+        int oldest = 0;
+        Auteur oudste = null;
+        for (Auteur a : s) {
+            if (Integer.parseInt(a.getAge()) > oldest) {
+                oldest = Integer.parseInt(a.getAge());
+                oudste = a;
+            }
+        }
+        if (oudste != null) {
+            return "De oudste auteur is " + oudste.getName() + " met een leeftijd van " + oldest + ".";
+        }
+        return "Er zijn nog geen auteurs geregistreerd.";
+    }
 }
 
 
