@@ -23,10 +23,10 @@ it refers to a variable from the class itself (e.a. this.count;)
 
 R8.20
 zero = an int/double containing the data that implies the number 'zero'
-null = nothing is contained in the data of this variable
+null = nothing is contained in the allocated bits of this variable
 false = a boolean state
 empty string = a functioning String variable that contains data that amounts to 'nothing'
 
 
 Wat	is	het	verschil	tussen	static	en	non-static?
-static methods can be called without a need for the class to be created
+static methods can be called without a need for the class itself to be created
