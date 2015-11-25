@@ -42,6 +42,10 @@ public class ArrayListMagic {
      */
 
     public static ArrayList<Integer> merge(ArrayList<Integer> a, ArrayList<Integer> b){
+
+        for (Integer i : a){
+
+        }
         return null;
     }
 

@@ -45,14 +45,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cylinder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cylinder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cylinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.092491835">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
               <folding>
                 <element signature="e#123#124#0" expanded="true" />
                 <element signature="e#187#188#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComboLock.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ComboLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="docComment;class#ComboLock#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -78,13 +90,13 @@
         <option value="$PROJECT_DIR$/src/Address.java" />
         <option value="$PROJECT_DIR$/src/Car.java" />
         <option value="$PROJECT_DIR$/src/Student.java" />
-        <option value="$PROJECT_DIR$/src/ComboLock.java" />
         <option value="$PROJECT_DIR$/src/Geometry.java" />
         <option value="$PROJECT_DIR$/src/Cone.java" />
         <option value="$PROJECT_DIR$/src/Sphere.java" />
         <option value="$PROJECT_DIR$/Review" />
         <option value="$PROJECT_DIR$/src/Cylinder.java" />
         <option value="$PROJECT_DIR$/src/Apl.java" />
+        <option value="$PROJECT_DIR$/src/ComboLock.java" />
       </list>
     </option>
   </component>
@@ -142,7 +154,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -177,8 +188,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,7 +199,7 @@
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Week2.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.Apl">
     <configuration default="false" name="Apl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -413,6 +425,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="3" />
@@ -432,11 +449,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ComboLock.java">
+    <entry file="file://$PROJECT_DIR$/src/Geometry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cylinder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -452,7 +483,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#ComboLock#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Apl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComboLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#ComboLock#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -496,7 +547,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="docComment;class#ComboLock#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -504,13 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9787879">
           <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6909091">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -535,19 +581,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ComboLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22198041">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Review">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5734494">
           <caret line="31" column="71" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,11 +609,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cylinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.092491835">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding>
             <element signature="e#123#124#0" expanded="true" />
             <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16648531">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComboLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#ComboLock#0" expanded="false" />
           </folding>
         </state>
       </provider>

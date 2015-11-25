@@ -40,6 +40,9 @@ public class ComboLock {
 
     public void reset() {
         dial = 0;
+        condition1=false;
+        condition3=false;
+        condition3=false;
         System.out.println("The dial has been reset to 0");
     }
 
