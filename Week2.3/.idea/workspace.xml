@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f254a6ff-520a-4ac3-bfec-54ada945cd37" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Week2.2/src/ComboLock.java" afterPath="$PROJECT_DIR$/../Week2.2/src/ComboLock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Week2.2/Review" afterPath="$PROJECT_DIR$/../Week2.2/Review" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BoekOpdrachten/ArrayListMagic.java" afterPath="$PROJECT_DIR$/src/BoekOpdrachten/ArrayListMagic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BoekenkastOpdracht/Boekenkast.java" afterPath="$PROJECT_DIR$/src/BoekenkastOpdracht/Boekenkast.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Week2.2/src/Car.java" afterPath="$PROJECT_DIR$/../Week2.2/src/Car.java" />
     </list>
     <ignored path="Week2.3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,8 +64,8 @@
       <file leaf-file-name="Boekenkast.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BoekenkastOpdracht/Boekenkast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27856365">
-              <caret line="147" column="9" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.5179543">
+              <caret line="166" column="16" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1161#1162#0" expanded="true" />
@@ -76,7 +77,7 @@
                 <element signature="e#1884#1885#0" expanded="true" />
                 <element signature="e#1919#1920#0" expanded="true" />
                 <element signature="e#2181#2187#0" expanded="true" />
-                <element signature="e#5469#5477#0" expanded="true" />
+                <element signature="e#5473#5481#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/src/BoekOpdrachten/ArrayListMagic.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="62" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -151,11 +152,11 @@
         <option value="$PROJECT_DIR$/src/Boek.java" />
         <option value="$PROJECT_DIR$/src/Apl.java" />
         <option value="$PROJECT_DIR$/src/Boekenkast.java" />
-        <option value="$PROJECT_DIR$/src/BoekenkastOpdracht/Boekenkast.java" />
         <option value="$PROJECT_DIR$/src/BoekOpdrachten/P8_20.java" />
         <option value="$PROJECT_DIR$/src/BoekOpdrachten/Country.java" />
         <option value="$PROJECT_DIR$/src/BoekOpdrachten/AppendArrayList.java" />
         <option value="$PROJECT_DIR$/src/BoekOpdrachten/ArrayListMagic.java" />
+        <option value="$PROJECT_DIR$/src/BoekenkastOpdracht/Boekenkast.java" />
       </list>
     </option>
   </component>
@@ -579,7 +580,7 @@
             <element signature="e#1884#1885#0" expanded="true" />
             <element signature="e#1919#1920#0" expanded="true" />
             <element signature="e#2181#2187#0" expanded="true" />
-            <element signature="e#5469#5477#0" expanded="true" />
+            <element signature="e#5473#5481#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -617,7 +618,7 @@
             <element signature="e#1884#1885#0" expanded="true" />
             <element signature="e#1919#1920#0" expanded="true" />
             <element signature="e#2181#2187#0" expanded="true" />
-            <element signature="e#5469#5477#0" expanded="true" />
+            <element signature="e#5473#5481#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -645,7 +646,7 @@
             <element signature="e#1884#1885#0" expanded="true" />
             <element signature="e#1919#1920#0" expanded="true" />
             <element signature="e#2181#2187#0" expanded="true" />
-            <element signature="e#5469#5477#0" expanded="true" />
+            <element signature="e#5473#5481#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -765,15 +766,15 @@
     <entry file="file://$PROJECT_DIR$/src/BoekOpdrachten/ArrayListMagic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="62" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BoekenkastOpdracht/Boekenkast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27856365">
-          <caret line="147" column="9" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.5179543">
+          <caret line="166" column="16" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1161#1162#0" expanded="true" />
@@ -785,7 +786,7 @@
             <element signature="e#1884#1885#0" expanded="true" />
             <element signature="e#1919#1920#0" expanded="true" />
             <element signature="e#2181#2187#0" expanded="true" />
-            <element signature="e#5469#5477#0" expanded="true" />
+            <element signature="e#5473#5481#0" expanded="true" />
           </folding>
         </state>
       </provider>

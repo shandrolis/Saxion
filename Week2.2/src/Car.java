@@ -24,7 +24,7 @@ public class Car {
 
 
     public void addGas(double amount) {
-        gasInTank = gasInTank + amount;
+        gasInTank += amount;
     }
 
     public void drive(int amountOfMiles) {
@@ -36,7 +36,7 @@ public class Car {
     }
 
     public String getGasLevel() {
-        return ("There is " + gasInTank + " gallons left in the tank.");
+        return ("There are " + gasInTank + " gallons left in the tank.");
     }
 
 

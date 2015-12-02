@@ -154,12 +154,16 @@ public class Boekenkast {
 
         bookList.forEach(boek -> {
             if (!tempList.isEmpty()) {
+
+
                 for (Boek b : tempList) {
                     if (b.equals(boek)) {
                         duplicates.add(boek);
                     } else {
                         tempList.add(boek);
                     }
+
+
                 }
             } else {
                 tempList.add(boek);
