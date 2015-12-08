@@ -7,7 +7,7 @@
  */
 public class CD {
 	// TODO: Here comes your implementation
-    private String titel, artist, publisher;
+    private String title, artist, publisher;
     private double length;
     private int amountOfSongs;
 
@@ -17,7 +17,19 @@ public class CD {
         this.artist = artist;
         this.length = length;
         this.publisher = publisher;
-        this.titel = titel;
+        this.title = titel;
+    }
+
+
+    @Override
+    public String toString() {
+        String result = "";
+        result+=("Titel: "+ this.title);
+        result+=("\n Artiest: "+ this.artist);
+        result+=("\n Uitgever: "+this.publisher);
+        result+=("\n Totale lengte: "+this.length);
+        result+=("\n Aantal liedjes: "+ this.amountOfSongs);
+        return result;
     }
 
     public int getAmountOfSongs() {
@@ -53,10 +65,10 @@ public class CD {
     }
 
     public String getTitel() {
-        return titel;
+        return title;
     }
 
     public void setTitel(String titel) {
-        this.titel = titel;
+        this.title = titel;
     }
 }
