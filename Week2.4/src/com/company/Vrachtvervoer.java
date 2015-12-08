@@ -1,7 +1,7 @@
 package com.company;
 
 /**
- * Created by idris on 2-12-2015.
+ * Created by Joep on 2-12-2015.
  */
 public class Vrachtvervoer {
 
