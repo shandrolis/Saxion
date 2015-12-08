@@ -1,0 +1,11 @@
+# In dit document staan verschillende CD's gedefinieerd
+# Elke regel bestaat uit de volgende onderdelen (puntkomma gescheiden):
+# Titel; Artiest; Aantal nummers; Totale lengte; Uitgever
+# Onvolledige regels mogen worden genegeerd (er moet dan een exception gegooid worden)
+Born And Raised;John Mayer;12;46,29;Sony
+United We Are;Hardwell;14;Cloud 9 Music
+Four Seasons;Vivaldi;12;60,30;Decca
+# Even een regel commentaar tussendoor :-)
+The Script;10;38,30;Sony
+V;Maroon 5;11;40,11;Interscope USA
+Chronic

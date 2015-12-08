@@ -1,0 +1,10 @@
+# In dit document staan verschillende CD's gedefinieerd
+# Elke regel bestaat uit de volgende onderdelen (puntkomma gescheiden):
+# Titel; Artiest; Aantal nummers; Totale lengte; Uitgever
+# Onvolledige regels mogen worden genegeerd (er moet dan een exception gegooid worden)
+Ghost stories;Coldplay;9;42,37;PLG
+PRISM;Katy Perry;13;48,46;Capitol
+Direct hits;The Killers;15;61,18;Int.Us-Def Jam
+# Even een regel commentaar tussendoor; gewoon omdat het kan :-)
+Listen;David Guetta;14;60,05;Plg France
+GIRL;Pharrell Williams;10;42,26;Columbia
