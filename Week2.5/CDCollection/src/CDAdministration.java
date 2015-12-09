@@ -24,7 +24,7 @@ public class CDAdministration {
             Scanner scan = new Scanner(new File(filename));
             while (scan.hasNextLine()) {
                 String line = scan.nextLine();
-                line.split(";");
+                cds.add(readLine(line));
             }
 
 
@@ -54,8 +54,13 @@ public class CDAdministration {
 
         Scanner sc = new Scanner(line);
         temp = line.split(";");
+        if (temp.length < 5) {
+            for (String s : temp) {
 
-
+            }
+        }else{
+            throw new CDException();
+        }
         // return new CD(amountOfSongs,artist,length,length, publisher,name);
         return null;
     }
