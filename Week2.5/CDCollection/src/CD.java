@@ -11,7 +11,14 @@ public class CD {
     private double length;
     private int amountOfSongs;
 
-
+    /**
+     *
+     * @param amountOfSongs
+     * @param artist
+     * @param length
+     * @param publisher
+     * @param titel
+     */
     public CD(int amountOfSongs, String artist, double length, String publisher, String titel) {
         this.amountOfSongs = amountOfSongs;
         this.artist = artist;

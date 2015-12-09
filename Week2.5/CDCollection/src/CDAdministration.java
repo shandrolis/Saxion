@@ -22,7 +22,7 @@ public class CDAdministration {
         // TODO: Here comes your implementation
         try {
             Scanner scan = new Scanner(new File(filename));
-            while(scan.hasNextLine()){
+            while (scan.hasNextLine()) {
                 String line = scan.nextLine();
                 line.split(";");
             }
@@ -44,9 +44,20 @@ public class CDAdministration {
      */
     private CD readLine(String line) throws CDException {
         // TODO: Here comes your implementation
+        String name;
+        String artist;
+        double length;
+        String publisher;
+        int amountOfSongs;
+
+        String[] temp;
+
+        Scanner sc = new Scanner(line);
+        temp = line.split(";");
 
 
-        return new CD();
+        // return new CD(amountOfSongs,artist,length,length, publisher,name);
+        return null;
     }
 
     /**
