@@ -55,14 +55,16 @@ public class CDAdministration {
         Scanner sc = new Scanner(line);
         temp = line.split(";");
         if (temp.length < 5) {
-            for (String s : temp) {
-
-            }
-        }else{
+            name = temp[0];
+            artist = temp[1];
+            length = Double.parseDouble(temp[2]);
+            publisher = temp[3];
+            amountOfSongs = Integer.parseInt(temp[4]);
+        } else {
             throw new CDException();
         }
-        // return new CD(amountOfSongs,artist,length,length, publisher,name);
-        return null;
+        return new CD(amountOfSongs, artist, length, publisher, name);
+
     }
 
     /**
