@@ -13,7 +13,7 @@ public class APL {
 			administration.readCDsFromFile("goodfile.txt");
 			
 			// Read the incorrect file
-			administration.readCDsFromFile("wrongfile.txt");
+			//administration.readCDsFromFile("wrongfile.txt");
 		} catch (CDException cdex) {
 			System.err.println(cdex.getMessage());
 		}

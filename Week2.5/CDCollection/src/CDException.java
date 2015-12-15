@@ -3,11 +3,11 @@
  */
 public class CDException extends Exception {
 
-    public CDException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
-        super(message, cause, enableSuppression, writableStackTrace);
+    public CDException() {
+        super();
     }
 
-    public CDException(){
-
+    public CDException(String message) {
+        super(message);
     }
 }

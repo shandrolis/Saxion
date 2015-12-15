@@ -53,17 +53,25 @@ public class CDAdministration {
         String[] temp;
 
         Scanner sc = new Scanner(line);
-        temp = line.split(";");
-        if (temp.length < 5) {
-            name = temp[0];
-            artist = temp[1];
-            length = Double.parseDouble(temp[2]);
-            publisher = temp[3];
-            amountOfSongs = Integer.parseInt(temp[4]);
+        if (!(sc.next().contains("#"))) {
+
+
+            temp = line.split(";");
+
+            if (temp.length == 5) {
+                name = temp[0];
+                artist = temp[1];
+                length = Double.parseDouble(temp[3]);
+                publisher = temp[4];
+                amountOfSongs = Integer.parseInt(temp[2]);
+            } else {
+                throw new CDException();
+            }
+            return new CD(amountOfSongs, artist, length, publisher, name);
         } else {
             throw new CDException();
         }
-        return new CD(amountOfSongs, artist, length, publisher, name);
+
 
     }
 
@@ -72,10 +80,14 @@ public class CDAdministration {
      */
     @Override
     public String toString() {
-        String result = "";
-        for (CD cd : cds) {
-            result += cd.toString() + "\n";
+        if (!cds.isEmpty()) {
+
+            String result = "";
+            for (CD cd : cds) {
+                result += cd.toString() + "\n";
+            }
+            return result;
         }
-        return result;
+        return "No CDs are present.";
     }
 }
